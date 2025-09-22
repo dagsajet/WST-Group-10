@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Adventure Agency</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Info Bar -->
+<div class="topbar py-2">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Left: Social Icons -->
+    <div class="d-flex gap-3">
+      <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+      <span><i class="bi bi-telephone me-1"></i> 01 2345 65486</span>
+      <span><i class="bi bi-envelope me-1"></i> nextstopjourney@gmail.com</span>
+    </div>
+    <!-- Right: Contact Info -->
+    <div class="d-flex gap-4 text-white small">
+      
+    </div>
+  </div>
+</div>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"> 
+      <img src="images/travel-logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto me-3">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Best Tour</a></li>
+      </ul>
+      <a href="#" class="btn">Inquire Now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="row align-items-center">
+      <!-- Search Box -->
+      <div class="col-lg-4 mb-4">
+        <div class="search-box shadow">
+          <div class="mb-3">
+            <select class="form-select">
+              <option selected>Trips</option>
+              <option>Beach</option>
+              <option>Adventure</option>
+              <option>Cultural</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <select class="form-select">
+              <option selected>Php5,000 - Php8,000</option>
+              <option>Php2,500 - Php5,000</option>
+              <option>Php1,000 - Php2,500</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <select class="form-select">
+              <option selected>Destination</option>
+              <option>Baguio</option>
+              <option>Cebu</option>
+              <option>Palawan</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <select class="form-select">
+              <option selected>0 Day - 11 Days</option>
+              <option>3 Days - 5 Days</option>
+              <option>7 Days - 14 Days</option>
+            </select>
+          </div>
+          <button class="search-btn">SEARCH</button>
+        </div>
+      </div>
+      <!-- Hero Text -->
+      <div class="col-lg-8 text-white hero-text">
+        <h1>Escape Your Comfort Zone.</h1>
+        <p>Grab your stuff and let’s get lost.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5" style="background-color: #fffcf2;">
+  <div class="container">
+    <div class="row text-center">
+      
+      <!-- Feature 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box">
+          <div class="mb-3">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <h6 class="fw-bold">Handpicked Destination</h6>
+          <p class="text-muted small">
+            Our strict screening process means you’re only seeing the best quality treks.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box">
+          <div class="mb-3">
+            <i class="bi bi-cash-coin"></i>
+          </div>
+          <h6 class="fw-bold">Best Price Guaranteed</h6>
+          <p class="text-muted small">
+            Our Best Price Guarantee means that you can be sure of booking at the best rate.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-box">
+          <div class="mb-3">
+            <i class="bi bi-headset"></i>
+          </div>
+          <h6 class="fw-bold">24/7 Customer Service</h6>
+          <p class="text-muted small">
+            Our customers are standing by 24/7 to make your experience incredible.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Popular Trips Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <!-- Section Heading -->
+    <p class="text-subtitle mb-1 fw-semibold">Popular Trips</p>
+    <h3 class="fw-bold">Explore popular trips</h3>
+    <p class="text-muted mb-5">Get started with handpicked top rated trips.</p>
+
+    <!-- Trip Cards -->
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/palawan.jpg" class="card-img-top" alt="Everest Base Camp">
+            <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">8% Off</span>
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold">Palawan: Discover the Last Frontier of the Philippines</h6>
+            <p class="text-muted small">
+              Palawan, often called the “Last Frontier,” is a tropical paradise known for its crystal-clear waters, limestone cliffs, hidden lagoons, and rich biodiversity. From the world-famous Underground River in Puerto Princesa to the breathtaking islands of El Nido and Coron, Palawan offers unforgettable adventures both on land and underwater. Travelers can explore pristine beaches, dive into vibrant coral reefs, or simply relax while surrounded by stunning natural beauty. Palawan is truly a destination where nature and adventure come together.
+            </p>
+            <ul class="list-unstyled small text-muted">
+              <li><i class="bi bi-geo-alt text-success me-2"></i> Elnido, Palawan</li>
+              <li><i class="bi bi-clock text-success me-2"></i> 7 Days</li>
+              <li><i class="bi bi-people text-success me-2"></i> 1–8 People</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted text-decoration-line-through">Php5,000</small>
+              <span class="fw-bold text-dark fs-5">Php4,500</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/cebu.jpg" class="card-img-top" alt="Incredible India">
+            <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">11% Off</span>
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold">Cebu: The Queen City of the South</h6>
+            <p class="text-muted small">
+              Cebu is a vibrant island province that combines rich history, lively culture, and stunning natural attractions. Famous for its centuries-old landmarks and bustling city life, Cebu is also a paradise for adventurers. One of its highlights is Oslob, where visitors can experience the once-in-a-lifetime opportunity of swimming alongside gentle whale sharks. Beyond this, Cebu offers pristine beaches in Mactan, diving in Malapascua, sardine runs in Moalboal, and breathtaking waterfalls in the south. With its mix of heritage, adventure, and natural wonders, Cebu truly lives up to its title as the “Queen City of the South.”
+            </p>
+            <ul class="list-unstyled small text-muted">
+              <li><i class="bi bi-geo-alt text-success me-2"></i> Oslob, Cebu</li>
+              <li><i class="bi bi-clock text-success me-2"></i> 5 Days</li>
+              <li><i class="bi bi-people text-success me-2"></i> 1–10 People</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted text-decoration-line-through">Php2,500</small>
+              <span class="fw-bold text-dark fs-5">Php2,300</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/baguio.jpg" class="card-img-top" alt="Bhutan Cultural Tour">
+            <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">6% Off</span>
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold">Baguio: The Summer Capital of the Philippines</h6>
+            <p class="text-muted small">
+              Baguio, nestled in the cool highlands of Benguet, is known as the “Summer Capital of the Philippines.” Famous for its refreshing climate, pine-covered hills, and scenic parks, it’s a favorite getaway from the tropical heat. Visitors can stroll along Burnham Park, enjoy panoramic views from Mines View, or explore the bustling Baguio Public Market for fresh produce and local crafts. The city also celebrates the colorful Panagbenga Festival, a grand display of flowers and culture. With its blend of natural beauty, history, and vibrant traditions, Baguio offers a unique highland escape.
+            </p>
+            <ul class="list-unstyled small text-muted">
+              <li><i class="bi bi-geo-alt text-success me-2"></i> Baguio City, Baguio</li>
+              <li><i class="bi bi-clock text-success me-2"></i> 7 Days</li>
+              <li><i class="bi bi-people text-success me-2"></i> 1–6 People</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted text-decoration-line-through">Php1,800</small>
+              <span class="fw-bold text-dark fs-5">Php1,700</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+    <div class="mt-5">
+      <a href="#" class="btn orange-btn text-white fw-bold px-4 py-2 rounded-pill">View All Trips</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Next Adventure -->
+<section class="py-5">
+  <div class="container text-center">
+    <!-- Section Heading -->
+    <p class="text-subtitle mb-1 fw-semibold">Next Adventure</p>
+    <h3 class="fw-bold">Best travel deals.</h3>
+    <p class="text-muted mb-5">The origin of the travel is most likely lost to history.</p>
+
+    <!-- Trip Cards -->
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/balabac.jpg" class="card-img-top" alt="Everest Base Camp">
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold adventure-title">Balabac Palawan: Explore the Hidden Paradise of the South.</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/mactan.jpg" class="card-img-top" alt="Incredible India">
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold adventure-title">Cebu Mactan: Gateway to Adventure and Relaxation.</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="position-relative">
+            <img src="images/lions head.jpg" class="card-img-top" alt="Bhutan Cultural Tour">
+          </div>
+          <div class="card-body text-start">
+            <h6 class="fw-bold adventure-title">Baguio Lion’s Head: Icon of the Summer Capital.</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+    <div class="mt-5">
+      <a href="#" class="btn orange-btn text-white fw-bold px-4 py-2 rounded-pill">View All Trips</a>
+    </div>
+  </div>
+</section>
+
+<!-- Tetimonials -->
+<section class="testimonials">
+  <div class="testimonial-section"></div>
+    <div class="container hero-content">
+      <div class="row align-items-center">
+        <div class="col-3"> </div>
+
+        <div class="col-6">
+          <!-- Section Heading -->
+          <p class="text-subtitle mb-1 fw-semibold center">Testimonials</p>
+          <h3 class="fw-bold center">Unforgettable Travel Experiences</h3>
+          <p class="text-muted mb-5 testimonials-sub">Our customer's feedback is essential in building a great reputation and maintaining excellent service. By listening to our customer's needs, we can improve our offerings and provide an exceptional travel experience.</p>
+       </div>
+
+        <div class="col-3"> </div>
+
+      </div>
+      <div class="row">
+        <div class="col-1"> </div>
+        <div class="col-10 testi-container"> 
+          <div class="testi-img">
+            <img src="images/testiimage1.png">
+           </div>
+          <div>
+            <h4 class="testi-title">Get Ahead in Travel with Booking</h4>
+            <p class="testi-info">  Inquietude simplicity terminated she compliment remarkably few her nay. The weeks are ham asked jokes. Neglected perceived shy nay concluded. </p>
+            <p class="testi-name"> Selvetica Forez </p>
+           </div>
+        </div>
+        <div class="col-1"> </div>
+
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- Logo & Description -->
+      <div class="col-md-4">
+        <div class="footer-logo">
+          <img src="images/footer-logo.png">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and types tting industry Lorem Ipsum is text .
+          </p>
+          <a href="#" class="btn btn-read">Read More</a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Best Tour</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <h5>Get In Touch</h5>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone"></i> 01 2345 65486</li>
+          <li><i class="fas fa-mobile-alt"></i> 01 2345 65486</li>
+          <li><i class="fas fa-envelope"></i> Address, St.</li>
+        </ul>
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom d-flex justify-content-between align-items-center">
+      <p>Copyright © 2025, Travel Adventure Agency</p>
+      <div class="footer-payments">
+        <img src="images/payment-cards.png" alt="Card">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
